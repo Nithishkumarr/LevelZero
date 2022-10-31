@@ -1,0 +1,160 @@
+/* body{
+    color:cornflowerblue
+}
+h1{
+    color:crimson
+}
+h2{
+    color: goldenrod;
+}
+h3{
+    color:hotpink
+}
+#lib-header
+{
+    color:aqua;
+}
+.para{
+    color: darkolivegreen;
+} */
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Roboto+Condensed:ital@1&family=Shadows+Into+Light&display=swap');
+
+font-family: 'Shadows Into Light', cursive;
+}
+/* container */
+.container{
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+/* .container-fluid{
+    padding: auto;
+} */
+/* links */
+root{
+    --primary--color:rgb(21, 255, 0);
+}
+.primary-link{
+    background-color:yellow;
+    border-radius: 0.5rem;
+    color:brown;
+    
+}
+.link{
+    text-decoration: none;
+    padding: 1rem,1rem;
+    text-align: center;
+}
+.secondary-link{
+    background-color: cadetblue;
+    border-radius: 0.5rem;
+    color:black;
+   
+    text-align: center;
+
+}
+.tirtery-link{
+   image-resolution: 5px;
+    margin:auto;
+    
+    
+}
+/* margin for hr */
+hr{
+    margin:1rem 2rem 0rem;
+    padding-bottom: 0.1rem;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation{
+    background-color:#60a5fa ; 
+    color:rgb(118, 95, 160);
+    border-bottom-left-radius: 2rem;
+}
+.navigation .link{
+    color:brown;
+}
+.nav-pills{
+    text-align: right;
+}
+.nav-band{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.link-link-active{
+    font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero-img{
+    max-width: 250px;
+    display: block;
+    margin:auto;
+}
+.hero-heading{
+    text-align: center;
+    color: grey;
+    padding-top: 1rem;
+}
+.header-inverted{
+    color:yellowgreena;
+}
+/* sections */
+.section h1{
+    text-align: center;
+}
+.section-col{
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    background-color:#99f6e4;
+    border-radius: 0.5rem 1rem 0.5rem;
+}
+.heading-section{
+    text-align: center;
+    color: cornflowerblue;
+}
+.section{
+    text-align:center;
+    padding: 0.5rem;
+}
+.footer{
+  
+    padding: 2rem 1rem;
+   
+    border-radius: 1.5rem;
+    background:paleturquoise;
+    border-top: 2rem;
+    text-align: center;
+}
+ .footer .footer-header{
+    
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    
+    
+}
+/* .footer .link{
+    image-resolution: 10px;
+} */
+.footer ul{
+    padding-inline-start: 0px;
+}
+.project_style{
+    display:inline;
+    
+   color: cornflowerblue;
+   font-weight: bolder;
+   
+}
